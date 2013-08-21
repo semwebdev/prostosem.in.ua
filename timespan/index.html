@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+	<head>
+		<title>Вывод даты в формате минут|часов|дней|месяцев назад - Демо</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel="stylesheet">
+        <script src="js/modernizr.js"></script>
+        <script>Modernizr.load({
+        test: Modernizr.inputtypes.date,
+        nope: ['http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js', 'css/jquery-ui-1.10.3.custom.min.css'],
+        complete: function () {
+        $('input[type=date]').datepicker({
+        dateFormat: 'yy-mm-dd'
+        });
+        }
+        });
+        </script>
+    </head>
+	<body>
+        <h3>Вернуться к статье на <a href="http://www.prostosem.in.ua/article/vyivod_raznicyi_megdu_datami_na_php">prostosem.in.ua</a></h3>
+        <div id='wrapper'>
+            <div id="result">
+                <p>Опубликовано: <span></span></p>
+            </div>
+            <form id="dateForm" name="dateForm" action="#" method="POST">
+                <span>Количество параметров: </span>
+                <label>1</label>
+                <input type="radio" checked="checked" name="number" value="1">
+                <label>2</label>
+                <input type="radio" name="number" value="2">
+                <label>3</label>
+                <input type="radio" name="number" value="3">
+                <label>4</label>
+                <input type="radio" name="number" value="4">
+                <label>5</label>
+                <input type="radio" name="number" value="5">
+                <label>6</label>
+                <input type="radio" name="number" value="6">
+                <p>Введите прошедшую дату в формате гггг-мм-дд или дд-мм-гггг.</p>
+                <input type="date" id="date" name="date">
+                <input type="submit"  name="submit" id="submit" value="Результат"/>
+            </form>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+  background-color: #B3B2B3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#wrapper{
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  box-shadow: 0 0 6px #555;
+  margin: 30px auto 0 auto;
+  padding: 30px;
+  width: 500px;
+}
+#result{
+  background-color: #54A2C9;
+  border-radius: 3px;
+  color: #fff;
+  height: 30px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  padding: 0 10px 0 10px;
+}
+#result p{
+  font-weight: bold;
+}
+
+#dateForm p {
+  color: #808080;
+  font-size: 13px;
+}
+#date{
+  height: 25px;
+  width: 150px;
+}
+
+#submit{
+   background-color: #F1F1F1;
+    border: 1px solid #ddd;
+    color: #2A648D;
+    height: 25px;
+    line-height: 25px;
+    width: 100px;
+}
