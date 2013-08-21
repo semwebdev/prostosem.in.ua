@@ -1,0 +1,139 @@
+﻿#puzzle-wrapper{
+margin: auto;
+width: 320px;
+}
+#puzzle{
+background-color: #666;
+border: 1px solid #ddd;
+width: 320px;
+height: 320px;
+position: relative;
+}
+.puzzle-item {
+background-size: 100% 100%;
+-webkit-box-shadow: inset 0px 0px 2px rgba(250, 250, 250, 0.9);
+box-shadow: inset 0px 0px 2px rgba(250, 250, 250, 0.9); 
+cursor: pointer;
+height: 25%;
+width: 25%;
+margin: 0 !important;
+padding: 0 !important;
+}
+.empty {
+background: none;
+box-shadow: none;
+cursor: default;
+}
+.empty :hover{
+cursor: default;
+}
+#puzzle-controls{
+height: 32px;
+margin-top: 10px;
+}
+#puzzle-controls button{
+	border: none;
+	display: block;
+	float: right;
+	margin: 0 3px;
+	height: 32px;
+	width: 32px;
+}
+#puzzle-controls button:active {
+ background-position: 1px 1px;
+}
+#puzzle-browse{
+background: url(../img/icons/Folder-32.png) no-repeat;
+}
+#puzzle-default{
+background: url(../img/icons/Fantasy-32.png) no-repeat;
+}
+#puzzle-refresh{
+background: url(../img/icons/Shuffle-32.png) no-repeat;
+}
+#puzzle-original{
+background: url(../img/icons/Detective-32.png) no-repeat;
+}
+#puzzle-style{
+background: url(../img/icons/Palette-32.png) no-repeat;
+}
+#puzzle1{
+left: 0;
+top: 0;
+position:absolute;
+}
+#puzzle2{
+left: 25%;
+top: 0;
+position:absolute;
+}
+#puzzle3{
+left: 50%;
+top: 0;
+position:absolute;
+}
+#puzzle4{
+left: 75%;
+top: 0;
+position:absolute;
+}
+#puzzle5{
+left: 0;
+top: 25%;
+position:absolute;
+}
+#puzzle6{
+left: 25%;
+top: 25%;
+position:absolute;
+}
+#puzzle7{
+left: 50%;
+top: 25%;
+position:absolute;
+}
+#puzzle8{
+left: 75%;
+top: 25%;
+position:absolute;
+}
+#puzzle9{
+left: 0;
+top: 50%;
+position:absolute;
+}
+#puzzle10{
+left: 25%;
+top: 50%;
+position:absolute;
+}
+#puzzle11{
+left: 50%;
+top: 50%;
+position:absolute;
+}
+#puzzle12{
+left: 75%;
+top: 50%;
+position:absolute;
+}
+#puzzle13{
+left: 0;
+top: 75%;
+position:absolute;
+}
+#puzzle14{
+left: 25%;
+top: 75%;
+position:absolute;
+}
+#puzzle15{
+left: 50%;
+top: 75%;
+position:absolute;
+}
+#puzzle16{
+left: 75%;
+top: 75%;
+position:absolute;
+}
